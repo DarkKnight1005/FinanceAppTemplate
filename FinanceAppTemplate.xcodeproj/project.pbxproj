@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1B2C3D26CD872600581B55 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B2C3C26CD872600581B55 /* MainScreen.swift */; };
+		AE3D41DF26CCFCDB00DED78B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3D41DE26CCFCDB00DED78B /* HomeScreen.swift */; };
+		AED3B41226CE38EC00A36E83 /* RecentTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B41126CE38EC00A36E83 /* RecentTransactions.swift */; };
+		AED3B41426CE718500A36E83 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B41326CE718500A36E83 /* ApiManager.swift */; };
+		AED3B41626CE730F00A36E83 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B41526CE730F00A36E83 /* MessageModel.swift */; };
+		AED3B41826CE761700A36E83 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B41726CE761700A36E83 /* Wrapper.swift */; };
+		AED3B41A26CE7B0B00A36E83 /* CredentialsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED3B41926CE7B0B00A36E83 /* CredentialsModel.swift */; };
 		AEDD52F026CA810300FCC61C /* FinanceAppTemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD52EF26CA810300FCC61C /* FinanceAppTemplateApp.swift */; };
 		AEDD52F226CA810300FCC61C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD52F126CA810300FCC61C /* ContentView.swift */; };
 		AEDD52F426CA810700FCC61C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDD52F326CA810700FCC61C /* Assets.xcassets */; };
 		AEDD52F726CA810700FCC61C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEDD52F626CA810700FCC61C /* Preview Assets.xcassets */; };
+		AEDD52FF26CA8B3500FCC61C /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD52FE26CA8B3500FCC61C /* LoginScreen.swift */; };
+		AEDD530126CA8D1900FCC61C /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD530026CA8D1900FCC61C /* ScreenSize.swift */; };
+		AEDD530326CAB6F400FCC61C /* KeyboardHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD530226CAB6F400FCC61C /* KeyboardHeight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE1B2C3C26CD872600581B55 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		AE3D41DE26CCFCDB00DED78B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		AED3B41126CE38EC00A36E83 /* RecentTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactions.swift; sourceTree = "<group>"; };
+		AED3B41326CE718500A36E83 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		AED3B41526CE730F00A36E83 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		AED3B41726CE761700A36E83 /* Wrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		AED3B41926CE7B0B00A36E83 /* CredentialsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsModel.swift; sourceTree = "<group>"; };
 		AEDD52EC26CA810300FCC61C /* FinanceAppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinanceAppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEDD52EF26CA810300FCC61C /* FinanceAppTemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceAppTemplateApp.swift; sourceTree = "<group>"; };
 		AEDD52F126CA810300FCC61C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEDD52F326CA810700FCC61C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEDD52F626CA810700FCC61C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEDD52F826CA810700FCC61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEDD52FE26CA8B3500FCC61C /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		AEDD530026CA8D1900FCC61C /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		AEDD530226CAB6F400FCC61C /* KeyboardHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHeight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +77,16 @@
 				AEDD52F326CA810700FCC61C /* Assets.xcassets */,
 				AEDD52F826CA810700FCC61C /* Info.plist */,
 				AEDD52F526CA810700FCC61C /* Preview Content */,
+				AEDD52FE26CA8B3500FCC61C /* LoginScreen.swift */,
+				AEDD530026CA8D1900FCC61C /* ScreenSize.swift */,
+				AEDD530226CAB6F400FCC61C /* KeyboardHeight.swift */,
+				AE3D41DE26CCFCDB00DED78B /* HomeScreen.swift */,
+				AE1B2C3C26CD872600581B55 /* MainScreen.swift */,
+				AED3B41126CE38EC00A36E83 /* RecentTransactions.swift */,
+				AED3B41326CE718500A36E83 /* ApiManager.swift */,
+				AED3B41526CE730F00A36E83 /* MessageModel.swift */,
+				AED3B41726CE761700A36E83 /* Wrapper.swift */,
+				AED3B41926CE7B0B00A36E83 /* CredentialsModel.swift */,
 			);
 			path = FinanceAppTemplate;
 			sourceTree = "<group>";
@@ -138,8 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED3B41A26CE7B0B00A36E83 /* CredentialsModel.swift in Sources */,
+				AEDD530326CAB6F400FCC61C /* KeyboardHeight.swift in Sources */,
+				AED3B41426CE718500A36E83 /* ApiManager.swift in Sources */,
+				AE1B2C3D26CD872600581B55 /* MainScreen.swift in Sources */,
 				AEDD52F226CA810300FCC61C /* ContentView.swift in Sources */,
+				AE3D41DF26CCFCDB00DED78B /* HomeScreen.swift in Sources */,
+				AED3B41626CE730F00A36E83 /* MessageModel.swift in Sources */,
 				AEDD52F026CA810300FCC61C /* FinanceAppTemplateApp.swift in Sources */,
+				AED3B41226CE38EC00A36E83 /* RecentTransactions.swift in Sources */,
+				AED3B41826CE761700A36E83 /* Wrapper.swift in Sources */,
+				AEDD530126CA8D1900FCC61C /* ScreenSize.swift in Sources */,
+				AEDD52FF26CA8B3500FCC61C /* LoginScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +312,7 @@
 				DEVELOPMENT_TEAM = L5PQJ6HLF3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FinanceAppTemplate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +334,7 @@
 				DEVELOPMENT_TEAM = L5PQJ6HLF3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FinanceAppTemplate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
