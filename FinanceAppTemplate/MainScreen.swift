@@ -19,31 +19,31 @@ struct MainScreen: View {
     
     var body: some View {
         
-        HomeScreen(mainOptions: mainOptionsState)
-//        ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)){
-//
-//            if(mainOptionsState.selectedIndex == 0){
-//                HomeScreen(mainOptions: mainOptionsState)
-////                    .transition(.opacity)
-//            }else if(mainOptionsState.selectedIndex == 1){
-//                RecentTransactions(mainOptions: mainOptionsState)
-//                    .transition(.opacity)
-//            }else if(mainOptionsState.selectedIndex == 2){
-//                HomeScreen(mainOptions: mainOptionsState)
-//                    .transition(.opacity)
-//            }
-//            else if(mainOptionsState.selectedIndex == 3){
-//                HomeScreen(mainOptions: mainOptionsState)
-//                    .transition(.opacity)
-//            }else{
-//                HomeScreen(mainOptions: mainOptionsState)
-//                    .transition(.opacity)
-//            }
-//
-//
-//            TabBarView(mainOptionsState: mainOptionsState)
-//        }
-//        .animation(.easeInOut(duration: 0.5))
+//        HomeScreen(mainOptions: mainOptionsState)
+        ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)){
+
+            if(mainOptionsState.selectedIndex == 0){
+                HomeScreen(mainOptions: mainOptionsState)
+                    .transition(.opacity)
+            }else if(mainOptionsState.selectedIndex == 1){
+                RecentTransactions(mainOptions: mainOptionsState)
+                    .transition(.opacity)
+            }else if(mainOptionsState.selectedIndex == 2){
+                HomeScreen(mainOptions: mainOptionsState)
+                    .transition(.opacity)
+            }
+            else if(mainOptionsState.selectedIndex == 3){
+                HomeScreen(mainOptions: mainOptionsState)
+                    .transition(.opacity)
+            }else{
+                HomeScreen(mainOptions: mainOptionsState)
+                    .transition(.opacity)
+            }
+
+
+            TabBarView(mainOptionsState: mainOptionsState)
+        }
+        .animation(.easeInOut(duration: 0.5))
         
         
     }
